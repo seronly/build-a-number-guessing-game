@@ -1,2 +1,2 @@
-# build-a-number-guessing-game
-FreeCodeCamp project
+# A number guessing-game
+FreeCodeCamp's project
