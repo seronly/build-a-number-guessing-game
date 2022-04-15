@@ -1,4 +1,3 @@
-
 --
 -- PostgreSQL database dump
 --
@@ -51,8 +50,8 @@ SET default_table_access_method = heap;
 CREATE TABLE public.users (
     user_id integer NOT NULL,
     username character varying(30) NOT NULL,
-    games_played integer,
-    best_game integer
+    games_played integer DEFAULT 0,
+    best_game integer DEFAULT 0
 );
 
 
